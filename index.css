@@ -87,7 +87,6 @@ ul li {
 	padding: 3px;
 	height: 25px;
 	list-style: none;
-	border-top: black 1px solid;
 	border-left: #DE1187 3px solid;
 	background-color: white;
 	margin-top: 8px;
@@ -490,6 +489,9 @@ ul button:hover {
 
 
 @media screen and (max-width: 409px){
+	body {
+		
+	}
 	.inside {
 		margin-top: 0px;
 		width: 100%;
@@ -502,15 +504,14 @@ ul button:hover {
 		margin-left: 3px;
 	}
 	ul button {
-		width: 10%;
-		height: 15px;
-		font-size: 6px;
-		margin-top: -3px;
-		margin: -2px 2px 0px 2px;
+		width: 11%;
+		height: 21px;
+		font-size: 7.5px;
+		margin: -4px 2px 0px 2px;
 	}
 	ul li {
-		padding: 5px 0px 17px 5px;
-		font-size: 9px;
+		padding: 10px 0px 20px 5px;
+		font-size: 10px;
 		height: 0px;
 	}
 	ul h1 {

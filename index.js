@@ -46,6 +46,7 @@ function displayList(value){
     doneBtn.addEventListener("click", function markDone(){
         li.style.color = "#3F3E3F";
         li.style.textDecoration = "line-through";
+        li.style.fontWeight = "bolder";
         doneBtn.style.display = "none";
         const checkBox = document.createElement("h1");
         const boxText = document.createTextNode("\u2714");
