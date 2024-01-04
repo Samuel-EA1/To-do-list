@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-do List</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<div class="headText">
+	<h1>To-do List</h1>
+	<p>Add tasks, set priorities and track your progress effortlessly!</p>
+</div>
+
+<div class="container">
+	<div class="inside">
+		<input type="text" value="" id="entry" placeholder="Add a new task here (maximum of 65 characters)" maxlength="45">
+		<button onclick="addList()">Add</button>
+		
+	</div>
+</div>
+
+<div>
+	<ul class="mylist" id="Listt">
+		<!-- <li id="idForList">I want to visit my uncle<button onclick="removeList()">done</button><button onclick="removeList()">done</button></li>
+		<li>I want to eat bread</li>
+		<li>shop at Alik mall</li> -->
+	</ul>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

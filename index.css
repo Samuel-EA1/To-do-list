@@ -1,0 +1,543 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	/* background-color: #BA00FF; */
+	background-image: url(newList.jpg);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
+
+.headText h1 {
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+	font-size: 40px;
+}
+
+.headText p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+
+}
+
+.inside {
+	margin-top: 15px;
+	width: 50%;
+	margin: 10px auto 0px auto;
+}
+.inside input {
+	height: 55px;
+	width: 88%;
+	margin: 25px auto 0px auto;
+	text-align: left;
+	padding: 0px 9px 0px 9px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 23px; 
+	border: solid 1px black;
+	border-radius: 4px;
+}
+
+.inside input:hover {
+	background-color: #FDF0FF;
+}
+
+.inside button {
+	height: 56.5px;
+	width: 9%;
+	font-size: 25px;
+	color: #DE1187;
+	border: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.inside button:active {
+	background-color: #DE1187;
+	color: white;
+}
+
+.mylist {
+	width: 70%;
+	height: 100%;
+}
+
+.MyList table tr {
+	display: block;
+}
+
+ul {
+	margin-top: 15px;
+	height: 560px;
+	min-height: 100%;
+	font-size: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	/* background-color: red; */
+}
+ul li {
+	text-align: left;
+	margin-left: 0px;
+	padding: 3px;
+	height: 25px;
+	list-style: none;
+	border-top: black 1px solid;
+	border-left: #DE1187 3px solid;
+	background-color: white;
+	margin-top: 8px;
+	padding-left: 5px;
+	padding-top: 15px;
+	display: block;
+	overflow: hidden;
+	width: 99.1%;
+	text-decoration: none;
+}
+
+ul button {
+	float: right;
+	background-color:#DE1187;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 3px;
+	border: black 1px solid;
+	cursor: pointer;
+	letter-spacing: 1px;
+	height: 30px;
+	width: 5%;
+	margin: -5px 5px 0px 5px;
+}
+
+ul h1 {
+	float: right;
+	border: none;
+	color: #DE1187;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 3px;
+	border: #DE1187 2px solid;
+	box-shadow: 1px 1px 3px #DE1187;
+	letter-spacing: 1px;
+	height: 28px;
+	width: 4.7%;
+	text-align: center;
+	margin: -7px 5px 0px 0px;
+}
+ul button:active {
+	background-color: #6F147D;
+	color: white;
+}
+
+ul button:hover {
+	background-color: white;
+	color: #DE1187;
+	border: #DE1187 2px solid;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 1301px){
+	body {
+		min-height: 100vh;
+	}
+	.inside {
+		width: 73%;
+		/* background-color: green; */
+	}
+	.mylist {
+		width: 78%;
+		height: 65px;
+		/* background-color: red; */
+	}
+	ul li {
+		height: 30px;
+		padding: 15px 5px 10px 5px;
+	}
+	ul button {
+		width: 6%;
+		font-size: 16px;
+		height: 40px;
+		margin-top: -8px;
+	}
+	ul h1 {
+		border: #DE1187 1px solid;
+		box-shadow: 3px 2px 3px #DE1187;
+		width: 6%;
+		height: 34px;
+		padding-top: 2px;
+	}
+	.inside input {
+		font-size: 20px; 
+		width: 85%;
+	}
+	.inside button {
+		font-size: 25px;
+		height: 58px;
+		width: 10.25%;
+	}
+}
+
+@media screen and (max-width: 1301px){
+	body {
+		min-height: 100vh;
+	}
+	.inside {
+		width: 80%;
+		/* background-color: green; */
+	}
+	.mylist {
+		width: 80%;
+	}
+	ul button {
+		width: 6%;
+		font-size: 14px;
+		margin-top: -3px;
+	}
+	ul li {
+		padding: 10px 5px 10px 5px;
+	}
+	ul h1 {
+		border: #DE1187 1px solid;
+		box-shadow: 3px 2px 3px #DE1187;
+		width: 5.7%;
+		margin-top: -3px;
+	}
+	.inside input {
+		font-size: 20px; 
+	}
+	.inside button {
+		font-size: 24px;
+		height: 58px;
+	}
+}
+@media screen and (max-width: 1069px){
+	.inside {
+		margin-top: -5px;
+		width: 90%;
+		/* background-color: red; */
+	}
+	.mylist {
+		width: 86%;
+		padding-right: 12px;
+	}
+	ul button {
+		width: 7%;
+		font-size: 13px;
+		margin-top: -7px;
+	}
+	ul li {
+		padding: 12px 5px 10px 5px;
+		font-size: 16px;
+		height: 17px;
+	}
+	ul h1 {
+		margin-top: -8px;
+		width: 6.7%;
+	}
+	.inside input {
+		font-size: 16px; 
+		width: 84%;
+		height: 50px;
+		margin-left: 17px;
+	}
+	.inside button {
+		font-size: 20px;
+		height: 50px;
+	}
+}
+@media screen and (max-width: 900px){
+	.inside {
+		margin-top: 0px;
+		width: 98%;
+		/* background-color: red; */
+	}
+	.mylist {
+		width: 97%;
+		padding-right: 6px;
+	}
+	ul button {
+		width: 8%;
+		font-size: 13px;
+		margin-top: -6px;
+
+	}
+	ul li {
+		padding: 10px 5px 10px 5px;
+		font-size: 15px;
+	}
+	ul h1 {
+		margin-top: -6px;
+		width: 7.7%;
+	}
+	.inside input {
+		font-size: 16px; 
+		width: 85%;
+		height: 45px;
+		margin-top: 10px;
+		margin-left: 5px;
+	}
+	.inside button {
+		font-size: 20px;
+		height: 45px;
+		width: 10%;
+		margin-left: 0px;
+	}
+	.headText h1 {
+		color: #DE1187;
+		font-size: 30px;
+	}
+	.headText p {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 625px){
+	.inside {
+		margin-top: 0px;
+		width: 98%;
+		/* background-color: red; */
+
+	}
+	.mylist {
+		width: 97%;
+		padding-right: 6px;
+	}
+	ul button {
+		width: 10%;
+		height: 25px;
+		font-size: 13px;
+		margin-top: -3px;
+
+	}
+	ul li {
+		padding: 10px 5px 10px 5px;
+		font-size: 13px;
+	}
+	ul h1 {
+		margin-top: -6px;
+		width: 7.7%;
+	}
+	.inside input {
+		font-size: 14px; 
+		width: 80%;
+		height: 38px;
+		margin-top: 10px;
+		margin-left: 18px;
+	}
+	.inside button {
+		font-size: 20px;
+		height: 40px;
+		width: 12%;
+		margin-left: 0px;
+	}
+	.headText h1 {
+		color: #DE1187;
+		font-size: 30px;
+	}
+	.headText p {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 625px){
+	.inside {
+		margin-top: 0px;
+		width: 98%;
+		/* background-color: red; */
+
+	}
+	.mylist {
+		width: 97%;
+		padding-right: 6px;
+	}
+	ul button {
+		width: 8%;
+		height: 23px;
+		font-size: 10px;
+		margin-top: -3px;
+
+	}
+	ul li {
+		padding: 10px 5px 10px 5px;
+		font-size: 12px;
+	}
+	ul h1 {
+		height: 22px;
+		margin-top: -4px;
+		width: 7.7%;
+		font-size: 16px;
+	}
+	.inside input {
+		font-size: 13px; 
+		width: 80%;
+		height: 34px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.inside button {
+		font-size: 16px;
+		height: 36px;
+		width: 12%;
+		margin-left: 0px;
+	}
+	.headText h1 {
+		margin-top: 7px;
+	}
+	.headText p {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 521px){
+	.inside {
+		margin-top: 0px;
+		width: 100%;
+	}
+	.mylist {
+		width: 97%;
+		padding-right: 9px;
+		margin-top: 0px;
+	}
+	ul button {
+		width: 9%;
+		height: 23px;
+		font-size: 10px;
+		margin-top: -3px;
+
+	}
+	ul li {
+		padding: 10px 5px 10px 5px;
+		font-size: 12px;
+	}
+	ul h1 {
+		height: 22px;
+		margin-top: -3px;
+		width: 9%;
+		font-size: 16px;
+	}
+	.inside input {
+		font-size: 12px; 
+		width: 73%;
+		height: 34px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	.inside button {
+		font-size: 16px;
+		height: 36px;
+		width: 12%;
+		margin-left: 0px;
+	}
+	.headText h1 {
+		margin-top: 7px;
+	}
+	.headText p {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 439px){
+	.inside {
+		margin-top: 0px;
+		width: 100%;
+		/* background-color: red; */
+	}
+	.mylist {
+		width: 97%;
+		padding-right: 9px;
+		margin-top: 0px;
+	}
+	ul button {
+		width: 10%;
+		height: 20px;
+		font-size: 9px;
+		margin-top: -3px;
+
+	}
+	ul li {
+		padding: 5px 5px 15px 5px;
+		font-size: 12px;
+		height: 5px;
+	}
+	ul h1 {
+		height: 19px;
+		margin-top: -4px;
+		width: 9.5%;
+		font-size: 16px;
+	}
+	.inside input {
+		font-size: 12px; 
+		width: 75%;
+		height: 30px;
+		margin-top: 10px;
+		margin-left: 14px;
+	}
+	.inside button {
+		font-size: 15px;
+		height: 31px;
+		width: 12%;
+		margin-left: 0px;
+	}
+	.headText h1 {
+		margin-top: 4px;
+	}
+	.headText p {
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 409px){
+	.inside {
+		margin-top: 0px;
+		width: 100%;
+		/* background-color: red; */
+	}
+	.mylist {
+		width: 97%;
+		padding-right: 9px;
+		margin-top: 0px;
+		margin-left: 3px;
+	}
+	ul button {
+		width: 10%;
+		height: 15px;
+		font-size: 6px;
+		margin-top: -3px;
+		margin: -2px 2px 0px 2px;
+	}
+	ul li {
+		padding: 5px 0px 17px 5px;
+		font-size: 9px;
+		height: 0px;
+	}
+	ul h1 {
+		height: 13.2px;
+		margin-top: 0px;
+		width: 9%;
+		font-size: 9px;
+		margin: -2px 5px 0px 10px;
+	}
+	.inside input {
+		font-size: 9.5px; 
+		width: 75%;
+		height: 30px;
+		margin-top: 10px;
+		margin-left: 9px;
+	}
+	.inside button {
+		font-size: 12px;
+		height: 31.5px;
+		width: 12%;
+		margin-left: 0px;
+	}
+	.headText h1 {
+		margin-top: 4px;
+		font-size: 25px;
+	}
+	.headText p {
+		font-size: 10px;
+	}
+}	
