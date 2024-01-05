@@ -5,7 +5,7 @@
 
 body {
 	/* background-color: #BA00FF; */
-	background-image: url(newList.jpg);
+	background-color: black;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -110,7 +110,7 @@ ul button {
 	cursor: pointer;
 	letter-spacing: 1px;
 	height: 30px;
-	width: 5%;
+	width: 15%;
 	margin: -5px 5px 0px 5px;
 }
 
@@ -141,6 +141,47 @@ ul button:hover {
 	font-weight: bold;
 }
 
+@media screen and (max-width: 1043px){
+	body {
+		min-height: 100vh;
+	}
+	.inside {
+		width: 73%;
+		/* background-color: green; */
+	}
+	.mylist {
+		width: 78%;
+		height: 65px;
+		/* background-color: red; */
+	}
+	ul li {
+		height: 30px;
+		padding: 15px 5px 10px 5px;
+	}
+	ul button {
+		width: 40%;
+		font-size: 16px;
+
+		height: 40px;
+		margin-top: -8px;
+	}
+	ul h1 {
+		border: #DE1187 1px solid;
+		box-shadow: 3px 2px 3px #DE1187;
+		width: 6%;
+		height: 34px;
+		padding-top: 2px;
+	}
+	.inside input {
+		font-size: 20px; 
+		width: 85%;
+	}
+	.inside button {
+		font-size: 25px;
+		height: 58px;
+		width: 10.25%;
+	}
+}
 @media screen and (min-width: 1301px){
 	body {
 		min-height: 100vh;
@@ -194,7 +235,7 @@ ul button:hover {
 		width: 80%;
 	}
 	ul button {
-		width: 6%;
+		width: 15%;
 		font-size: 14px;
 		margin-top: -3px;
 	}
@@ -222,13 +263,14 @@ ul button:hover {
 		/* background-color: red; */
 	}
 	.mylist {
-		width: 86%;
+		width: 89%;
 		padding-right: 12px;
 	}
 	ul button {
-		width: 7%;
+		width: 13%;
 		font-size: 13px;
-		margin-top: -7px;
+		margin-top: -5px;
+		height: 28px;
 	}
 	ul li {
 		padding: 12px 5px 10px 5px;
@@ -261,9 +303,10 @@ ul button:hover {
 		padding-right: 6px;
 	}
 	ul button {
-		width: 8%;
+		width: 15%;
 		font-size: 13px;
-		margin-top: -6px;
+		margin-top: -5px;
+		height: 28px;
 
 	}
 	ul li {
@@ -354,9 +397,9 @@ ul button:hover {
 		padding-right: 6px;
 	}
 	ul button {
-		width: 8%;
+		width: 15%;
 		height: 23px;
-		font-size: 10px;
+		font-size: 12px;
 		margin-top: -3px;
 
 	}
@@ -401,7 +444,7 @@ ul button:hover {
 		margin-top: 0px;
 	}
 	ul button {
-		width: 9%;
+		width: 15%;
 		height: 23px;
 		font-size: 10px;
 		margin-top: -3px;
@@ -504,10 +547,10 @@ ul button:hover {
 		margin-left: 3px;
 	}
 	ul button {
-		width: 11%;
+		width: 15%;
 		height: 21px;
-		font-size: 7.5px;
-		margin: -4px 2px 0px 2px;
+		font-size: 9px;
+		margin: -5px 2px 0px 2px;
 	}
 	ul li {
 		padding: 10px 0px 20px 5px;
@@ -541,3 +584,12 @@ ul button:hover {
 		font-size: 10px;
 	}
 }	
+body {
+	/* background-color: #BA00FF; */
+	background-image: none;
+	background-color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}

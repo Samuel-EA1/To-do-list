@@ -30,29 +30,26 @@ function displayList(value){
     li.appendChild(document.createTextNode(value));
     myUlList.appendChild(li);
     let button = document.createElement('button');
-    button.appendChild(document.createTextNode("Delete"));
+    button.appendChild(document.createTextNode("Remove"));
     li.appendChild(button); 
 
-    let doneBtn = document.createElement('button');
-    doneBtn.appendChild(document.createTextNode("Done"));
-    li.appendChild(doneBtn); 
-
+    
     button.addEventListener("click", function clearTask(){
         li.style.display = "none";
         li.value = "";
         myArray.length = "";
     })
 
-    doneBtn.addEventListener("click", function markDone(){
-        li.style.color = "#3F3E3F";
-        li.style.textDecoration = "line-through";
-        li.style.fontWeight = "bolder";
-        doneBtn.style.display = "none";
-        const checkBox = document.createElement("h1");
-        const boxText = document.createTextNode("\u2714");
-        checkBox.appendChild(boxText);
-        li.appendChild(checkBox);
-    })    
+    // doneBtn.addEventListener("click", function markDone(){
+    //     li.style.color = "#3F3E3F";
+    //     li.style.textDecoration = "line-through";
+    //     li.style.fontWeight = "bolder";
+    //     doneBtn.style.display = "none";
+    //     const checkBox = document.createElement("h1");
+    //     const boxText = document.createTextNode("\u2714");
+    //     checkBox.appendChild(boxText);
+    //     li.appendChild(checkBox);
+    // })    
  }
 
 
